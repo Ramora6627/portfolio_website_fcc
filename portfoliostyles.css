@@ -1,0 +1,166 @@
+.portfolio-text {
+    position:relative;
+    block-size: 5em;
+
+    font-size: 3em;
+    color: rgb(252, 251, 251);
+    font-weight:lighter;
+    padding-top: 1.5em;
+    width: 100%;
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    color: white;
+}
+.one {
+    width: 30px;
+}
+.two {
+    width: 20px;
+}
+.three {
+    width: 25px;
+}
+
+.nav:hover div {
+    width: 30px;
+}
+
+/* .border {
+	display: grid;
+	place-items: center;
+	min-height: 200px;
+	border: 8px solid;
+    background-color: rgb(220, 147, 53);
+	padding: 1rem;
+} */
+.sides {
+	border-image: linear-gradient(to right, rgb(186, 186, 186), rgb(84, 84, 81)) 1 0;
+}
+.container1 {
+    max-width: 80%;
+    margin-top: 5%;
+    margin-left: 18%;
+    position: relative;
+}
+.title {
+/* text-align:left; */
+background-color: black;
+color:#ffffff;
+
+font-size: 45px;
+object-fit: contain;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.project-1 {
+    background-color: rgb(0, 0, 0);
+    background-size: contain;   
+}
+
+.project-2 {
+    background-color: rgb(0, 0, 0);
+    background-size: contain;
+    object-fit: contain;
+    /* height:200em; */
+}
+
+.project-3 {
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+}
+
+.project-4 {
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+}
+
+.project-5 {
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+}
+
+.project-6 {
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+}
+
+.project-7 {
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+}
+
+.project-text {
+    text-align:center;
+    font-size:50px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 1000px;
+    margin-bottom:10px;
+    background-color: rgb(206, 205, 201);
+    color: white;
+    text-align: center;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+/* .container-4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: lightgrey;
+} */
+
+/* .column-4 {
+    width:150px;
+    height:150px;
+} */
+.column-4 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    margin:4px;
+    height: 400px;
+    list-style:none ;
+}
+.project-1:hover {
+    background-color:#d6e756;
+}
+.project-2:hover {
+    background-color:#fe4c00;
+}
+
+.project-3:hover {
+    background-color: #FEDE00;
+}
+
+.project-4:hover {
+    background-color: #d34e36;
+}
+
+.project-5:hover {
+    background-color: #FEDE00;
+}
+
+.project-6:hover {
+    background-color: #fe4c00;
+}  
+
+.project-7:hover {
+background-color: #FEDE00;
+}
