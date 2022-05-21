@@ -1,19 +1,23 @@
 .portfolio-text {
     position:relative;
     block-size: 4rem;
-    background-color: #ab4b722f;
+    background-color: rgba(184, 236, 217, 0.462);
     font-size: 2.5rem;
-    color: rgb(252, 251, 251);
     font-weight:lighter;
     width: 100rem;
-    right:5rem;
+    letter-spacing: 14px;
+    right:4rem;
     text-align: center;
     position: relative;
     color: white;
+    top:1rem;
 }
 .one {
     width: 30px;
 }
+/* .one-l {
+    height:600px
+} */
 .two {
     width: 20px;
 }
@@ -34,7 +38,7 @@
 	padding: 1rem;
 } */
 .sides {
-	border-image: linear-gradient(to right, rgb(186, 186, 186), rgb(84, 84, 81)) 1 0;
+	border-image: linear-gradient(to right, rgba(184, 236, 217, 0.462), rgb(84, 84, 81)) 1 0;
 }
 /* .container1 {
     max-width: 80vh;
@@ -45,9 +49,8 @@
 } */
 .title {
 /* text-align:left; */
-background-color: black;
+background-color: rgba(184, 236, 217, 0.462);
 color:#ffffff;
-
 font-size: 45rem;
 object-fit: contain;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -55,40 +58,75 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .project-1 {
-    background-color: rgb(0, 0, 0);
-    background-size: contain;   
-}
-
-.project-2 {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(184, 236, 195, 0.462);
+    background: url(/images/social-modified.png) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-position: center;
+    background-size: cover;   
     background-size: contain;
+    object-fit: contain;
+}
+/* https://cdn.sanity.io/images/7smmycik/production/060ee00dcff390116066b65c8498ce87a2a6dd20-750x750.png?w=250&amp;h=250&amp;q=85 */
+.project-2 {
+    background-color: rrgba(184, 236, 217, 0.462);
+    background: url(images/image.png) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-size: 13rem 13rem;
+    background-position: center;
     object-fit: contain;
     /* height:200em; */
 }
 
 .project-3 {
-    background-color: rgb(0, 0, 0);
-    background-size: cover;
+    background-color: rgba(184, 236, 217, 0.462);
+    background: url(images/tuxpi.com.1653170220.jpg) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-position: center;
+    object-fit: contain;
+    background-size: contain;
 }
 
 .project-4 {
-    background-color: rgb(0, 0, 0);
-    background-size: cover;
+    background-color: rgba(184, 236, 217, 0.462);
+    background: url(/images/tasky-free-ui-kit-h49-modified.png) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-position: center;
+    background-size: cover;   
+    background-size: contain;
+    object-fit: contain;
 }
 
 .project-5 {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(184, 236, 217, 0.462);
     background-size: cover;
 }
 
 .project-6 {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(184, 236, 217, 0.462);
     background-size: cover;
 }
 
 .project-7 {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(184, 236, 217, 0.462);
     background-size: cover;
+}
+
+.project-8 {
+    background-color: rgba(184, 236, 217, 0.462);
+    background: url(images/A956-How-Effective-Is-the-Studio-System-in-Architecture-And-Design-Education-1.jpeg) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-size: cover;   
+    background-size: contain;
+    object-fit: contain;
+    background-position: center;
+    /* background-size: cover;   
+    background-size: contain;
+    object-fit: contain; */
 }
 
 .project-text {
@@ -102,7 +140,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
     margin-top: 1000px;
     margin-bottom:10px;
-    background-color: rgb(206, 205, 201);
+    background-color: rgba(184, 236, 217, 0.462);
     color: white;
     text-align: center;
 }
@@ -110,7 +148,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 img {
     height: 15rem;
     width: 15rem;
-    object-fit: contain;
+    object-fit:scale-down;
 }
 .container-4 {
     display: flex;
@@ -120,10 +158,9 @@ img {
     align-items: center;
     margin-left: 10em;
     margin-right: 10em;
-    margin-top: 4rem;
     width: 70rem;
     height: 600px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(184, 236, 217, 0.462);
 }
 
 /* .column-4 {
@@ -139,9 +176,18 @@ img {
     list-style:none ;
 } */
 .project-1:hover {
+    background-image:url(/images/output-onlinegiftools1.gif);
+    background-size: contain;
+    background-position: center;
     background-color:#d6e756;
+    /* margin-right:2rem; */
+    /* object-fit:10rem ; */
 }
+
 .project-2:hover {
+    background-image:url(/images/2022-05-21\ 12.10.30.jpg);
+    background-size: contain;
+    background-position: center;
     background-color:#fe4c00;
 }
 
@@ -164,3 +210,45 @@ img {
 .project-7:hover {
 background-color: #FEDE00;
 }
+
+.project-8:hover {
+    background-image:url(/images/animation-_1_.gif);
+    width:15rem;
+    height:15rem;
+    background-size: 15rem 9rem;
+    background-position: center;
+
+    background-color: #bbe65d;
+    }
+.figure {
+    position: relative;
+    width: 360px; /* can be omitted for a regular non-lazy image */
+    max-width: 100%;
+}
+
+/* .project-1.img.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 400px;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+} */
+.project-1:hover .image-hover {
+    opacity: 1;
+}
+
+/* #Library {
+    background-image: src="https://demo.sirv.com/hc/Bose-700-b.jpg";
+    height: 170px;
+    width: 120px;
+}
+
+
+#Library:hover {
+    background-image: src="https://demo.sirv.com/hc/Bose-700-b.jpg";
+} */
+
+
