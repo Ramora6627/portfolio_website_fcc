@@ -102,17 +102,33 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 .project-5 {
     background-color: rgba(184, 236, 217, 0.462);
-    background-size: cover;
+    background: url(images/image-1.png) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-size: 14rem 10rem;
+    background-position: center;
+    object-fit: contain;
 }
 
 .project-6 {
     background-color: rgba(184, 236, 217, 0.462);
-    background-size: cover;
+    background: url(images/tuxpi.com.1653175765.jpg) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-position: center;
+    object-fit: contain;
+    background-size: contain;
 }
 
 .project-7 {
     background-color: rgba(184, 236, 217, 0.462);
-    background-size: cover;
+    background: url(/images/image6-modified.png) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-position: center;
+    background-size: cover;   
+    background-size: contain;
+    object-fit: contain;
 }
 
 .project-8 {

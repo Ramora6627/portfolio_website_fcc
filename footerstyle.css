@@ -32,16 +32,15 @@
 }
 .footer-center p {
     color: #ffffff;
-    block-size: 3rem;
-    width: fit-content;
+    block-size: 2rem;
+    width:100vw;
     font-size: 18px;
-    margin-left: 30rem;
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
+    padding-left: 30rem;
 
-    align-content: center;
+    /* padding-bottom: 2rem;
+    margin-bottom: 2rem; */
     letter-spacing: 1rem;
-    background-color: rgba(184, 236, 217, 0.462);
+    background-color: rgba(10, 10, 10);
 
 }
 /* Footer links */
@@ -95,7 +94,7 @@
     height: 35px;
     padding-right: 4px;
     padding-top: 10px;
-    background-color: #33383b;
+    background-color: #ffffff;
     border-radius: 2px;
     font-size: 20px;
     color: #ffffff;
@@ -106,7 +105,6 @@
 
     transition:all .25s;
 }
-
 
 
 /* Media Queries */
@@ -123,3 +121,35 @@
     line-height: 1.8;
     }
 } */
+
+a[href*="twitter.com/"] {
+    background:url(https://twitter.com/favicon.ico) no-repeat left center;
+    padding: 0.5rem;
+    background-size:2rem;
+    background-position: center;
+
+    }
+
+a[href*="linkedin.com/"] {
+    background:url(https://www.linkedin.com/favicon.ico) no-repeat left center;
+    padding: 0.5rem;
+    background-size:2rem;
+    background-position: center;
+
+    }
+
+a[href*="github.com/"] {
+    background:url(https://www.github.com/favicon.ico) no-repeat left center;
+    padding: 0.5rem;
+    background-size:2rem;
+    background-position: center;
+
+    }
+
+a[href*="instagram.com/"] {
+    background:url(https://www.instagram.com/favicon.ico) no-repeat left center;
+    padding: 0.5rem;
+    background-size:2rem;
+    background-position: center;
+
+    }
