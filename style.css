@@ -415,6 +415,7 @@ a .nav-link:hover{
     width: 35rem;
     /* padding-left:24rem;
     padding-right:24rem; */
+    text-justify:right;
     padding-top:1rem;
     font-weight:1rem;
     margin-top:10;
